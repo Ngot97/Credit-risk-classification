@@ -14,10 +14,11 @@ The target financial information in the data is the loan status and we needed to
 The dataset contained 77535 rows of values that was split into 2 which was called training and testing datasets. I used logistic regression module to help us determine whether a borrower would be a low or high risk. 
 
 * Describe the stages of the machine learning process you went through as part of this analysis.
-* Step 1: Read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
-* Step 2: Create the labels set (`y`)  from the “loan_status” column, and then create the features (`X`) DataFrame from the remaining columns.
-* Step 3: Split the data into training and testing datasets by using `train_test_split`.
-* Step 4: Create a Logistic Regression Model with the Original Data
+
+Step 1: Read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
+Step 2: Create the labels set (`y`)  from the “loan_status” column, and then create the features (`X`) DataFrame from the remaining columns.
+Step 3: Split the data into training and testing datasets by using `train_test_split`.
+Step 4: Create a Logistic Regression Model with the Original Data
     a. Step 1: Fit a logistic regression model by using the training data (`X_train` and `y_train`).
     b. Step 2: Save the predictions on the testing data labels by using the testing feature data (`X_test`) and the fitted model.
     c. Step 3: Evaluate the model’s performance by doing the following:
@@ -25,7 +26,8 @@ The dataset contained 77535 rows of values that was split into 2 which was calle
         b(i) Print the classification report.
 
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithm).
-* We used LogisticRegression.
+
+We used LogisticRegression.
 
 ## Results
 
